@@ -1,7 +1,10 @@
 <?php
 // Create connection
-$HOST = 'globalbuttercorpdatabase.cfthiid2pigu.us-east-1.rds.amazonaws.com';
-$DBUSER = 'rdscloudadmin';
+
+// Our internal security team has said it is not wise to put hostnames and other sensitive information in the source like this, so removing it.
+
+$HOST = ''; // will read from environment variable as well
+$DBUSER = ''; // will read from environment variable as well
 $DBPASS = ''; // This will be added via a environment variable
 $DBPORT = ''; // The port is a non-standard but common port, to confuse hackers!
 
